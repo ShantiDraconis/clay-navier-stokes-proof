@@ -1,0 +1,16 @@
+name = "ClayNavierStokesProof"
+version = "0.1.0"
+defaultTargets = ["ClayNavierStokesProof"]
+
+[leanOptions]
+autoImplicit = false
+
+# O enunciado vem fixado por commit: a prova nunca pode trocar o problema.
+# O nome tem que ser o `name` do lakefile do repositório do enunciado.
+[[require]]
+name = "ClayNavierStokes"
+git = "https://github.com/ShantiDraconis/clay-navier-stokes-statement.git"
+rev = "28e33a0d781af5a887e90c90145eced2c9daa531"
+
+[[lean_lib]]
+name = "ClayNavierStokesProof"
