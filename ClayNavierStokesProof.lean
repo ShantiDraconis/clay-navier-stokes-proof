@@ -1,1 +1,5 @@
 import ClayNavierStokesProof.Main
+import ClayNavierStokesProof.FCStatements
+import ClayNavierStokesProof.FCBridge
+import ClayNavierStokesProof.FCClay
+import ClayNavierStokesProof.Audit
