@@ -1,5 +1,7 @@
 # Navier–Stokes — prova (Lean 4 / Mathlib)
 
+Autor: Tiago Paschoalatto Fagliari — ORCID [0009-0006-6874-3910](https://orcid.org/0009-0006-6874-3910)
+
 Depende do enunciado em [`ShantiDraconis/clay-navier-stokes-statement`](https://github.com/ShantiDraconis/clay-navier-stokes-statement),
 fixado no commit `28e33a0`. O alvo é `ClayNavierStokes.ClayA`, sem redefinição.
 
